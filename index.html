@@ -7,12 +7,35 @@
 </head>
 <body>
        <div class="header"><h1>HELLO WORLD</h1></div>
+       <div class="tabs">
+            <button class="tab">Main Page</button>
+            <button class="tab">Cool Page</button>
+            <button class="tab">Coolest page</button>
+        </div>
        <div class="content"></div>
 </body>
 <style>
     body {
         background-color: brown;
     }
+    .tabs {
+        align-items: start;
+    }
+    .tab {
+        width: 100px;
+        height: 40px;
+        background-color: #ec6767;
+        border-top-left-radius:  10px;
+        border-top-right-radius: 10px;
+        border-style: none;
+    }
+    .tab:hover {
+        background-color: #ffc7c7;
+    }
+    .tab.active {
+
+    }
+
     .header {
         background-color: brown;
         color: aliceblue;
