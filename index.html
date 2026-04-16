@@ -3,55 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cappuccino :3</title>
 </head>
 <body>
-       <div class="header"><h1>HELLO WORLD</h1></div>
-       <div class="tabs">
-            <button class="tab">Main Page</button>
-            <button class="tab">Cool Page</button>
-            <button class="tab">Coolest page</button>
-        </div>
-       <div class="content"></div>
+    <div class="wrap">
+        <header class="header">
+            <a id="title_link" href="index.html" style="text-decoration: none;">
+                <img id="cappuccino" src="img/cappuccino.png" alt="a gatinha mais fofa de todo o mundo dentro de uma caixa">
+                <h1  id="title">CAPINO</h1>
+            </a>
+            <nav class="tabs">
+                <button class="tab active">Comidas</button>
+                <button class="tab"       >Cool Page</button>
+                <button class="tab"       >Coolest page</button>
+            </nav>
+        </header>
+        <main>
+            <div class="content"   id="main_page">
+                <h1>Cappuccino</h1><br>
+                <h2 style="padding-left: 70px; display: inline;">e suas refei&ccedil;&otilde;es</h2>
+                <h2><i class="fa-solid fa-shrimp"></i> Camar&atilde;o</h2>
+                <p>
+                    A Cappuccino nunca comeu camarão, mas acho que ela gostaria se provasse.
+                </p>
+                <h2><i class="fa-solid fa-cow"></i> Vaca</h2>
+                <p>
+                    Ela já comeu carne de vaca algumas vezes e ela adora! Muito mais do que qualquer outra carne
+                </p>
+                <h2><i class="fa-solid fa-dove"></i> Frango</h2>
+                <p>
+                    A carne que ela mais come, ela não gosta tanto quanto carne de vaca, mas ela come!
+                </p>
+                <h2><i class="fa-solid fa-bugs"></i> Insetos</h2>
+                <p>
+                    Acho que nunca nem vi ela tentar pegar uma barata! Dos nossos bixos os únicos que realmente caçam insetos são o <i class="fa-solid fa-cat"></i>Oreo,
+                     o <i class="fa-solid fa-cat"></i>Beijinho e a <i class="fa-solid fa-dog"></i>Pizza!
+                </p>
+            </div>
+            <div class="content"   id="cool_page"></div>
+            <div class="content"   id="cooler_page"></div>
+        </main>
+        <footer>
+            &copy; 2026 &#128511; cebola frita com repolho
+        </footer>
+    </div>
 </body>
 <style>
-    body {
-        background-color: brown;
-    }
-    .tabs {
-        align-items: start;
-    }
-    .tab {
-        width: 100px;
-        height: 40px;
-        background-color: #ec6767;
-        border-top-left-radius:  10px;
-        border-top-right-radius: 10px;
-        border-style: none;
-    }
-    .tab:hover {
-        background-color: #ffc7c7;
-    }
-    .tab.active {
-
-    }
-
-    .header {
-        background-color: brown;
-        color: aliceblue;
-        font-family: 'Courier New', Courier, monospace;
-        font-size:xx-large;
-        text-align: center;
-        margin: 0%;
-    }
-    .content {
-        background-color: aliceblue;
-        width: 100%;
-        height:1000px;
-    }
-
 </style>
 <script>
-
 </script>
 </html>
