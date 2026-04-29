@@ -1,0 +1,81 @@
+main {
+    height: fit-content;
+    width: auto;
+}
+
+.pet {
+    background-color: brown;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    margin: 10px;
+}
+.pet_content {
+    display: none;
+    background-color: aliceblue;
+    align-content: center;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.pet_content.active {
+    display: block;
+}
+.profile_div {
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    padding: 5px;
+    background-color: #ec6767;
+}
+.subtitle {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+}
+.profile {
+    width: 100px;
+    height: 100%;
+    border-radius: 30px;
+}
+.name {
+    padding-left: 20px;
+    font-size: xx-large;
+}
+.age {
+    padding-left: 20px;
+}
+.name_mini {
+    padding-left: 4px;
+}
+.tabs.pets {
+    margin-top: 8px;
+    padding-left: 30px;
+}
+.tab.pets {
+    width: 30px;
+    height: 30px;
+}
+.pet_content h3 {
+    display: inline;
+}
+.pet_content h2 {
+    background-color: #ec6767;
+    border-radius: 15px;
+    padding: 5px;
+}
+.friend_container {
+    padding-left: 30px;
+}
+.pet_img {
+    border-radius: 15px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: auto;
+}

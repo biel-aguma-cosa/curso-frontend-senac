@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/friends.css">
+    
+    <script src="../js/friends.js"></script>
+
+    <title>Cappuccino :3</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a id="title_link" href="../" style="text-decoration: none;">
+                <img id="cappuccino" src="../img/cappuccino.png" alt="a gatinha mais fofa de todo o mundo dentro de uma caixa">
+                <h1  id="title">CAPINO</h1>
+            </a>
+            <nav class="tabs">
+                <a href="../"><button class="tab"       >Sobre</button></a>
+                <a href="../comidas/"><button class="tab">Comidas</button></a>
+                <button class="tab active">Amigos</button>
+            </nav>
+        </header>
+        <main>
+            <h1>Cappuccino</h1><br>
+            <h2 style="padding-left: 70px; display: inline;">e seus amiguinhos</h2>
+            <div class="pet" id="kitkat">
+                <div class="profile_div">
+                    <img class="profile" src="../img/kitkat_pfp.png" alt="foto da kitkat de lado">
+                    <h2 class="name">Kitkat</h2><br>
+                </div>
+                <div class="tabs pets">
+                    <button onclick="change_tab(event,'kitkat','about'  )" class="tab pets active"><i class="fa-solid fa-book"></i>      </button>
+                    <button onclick="change_tab(event,'kitkat','food'   )" class="tab pets"       ><i class="fa-solid fa-bowl-food"></i> </button>
+                    <button onclick="change_tab(event,'kitkat','friend' )" class="tab pets"       ><i class="fa-solid fa-heart"></i>     </button>
+                    <button onclick="change_tab(event,'kitkat','photo'  )" class="tab pets"       ><i class="fa-solid fa-photo-film"></i></button>
+                </div>
+                <div class="about pet_content active">
+                    <strong>Idade: </strong>201X ou 2017 até 2025<br>
+                    <strong>Nome: </strong>Kitkat
+                    <p>
+                        M&atilde;e da <a href="../"><i class="fa-solid fa-cat"></i>Cappuccino</a>, melhor amiga da <a href="../amigos#cacare"><i class="fa-solid fa-cat"></i>Jacar&eacute;</a> e a antiga
+                        <br>
+                        dona do cargo de Pedidora de Comida.
+                    </p>
+                    <p>
+                        A Kitkat adorava carinho e colo e sempre dormia com algu&eacute;m.
+                        Quando ela ficou doente, ela ficou o tempo todo perto da minha cama.
+                    </p>
+                    <p>
+                        Foi uma das sobreviventes da praga f&uacute;ngica (esporotricose) de 2020.
+                    </p>
+                </div>
+                <div class="food pet_content">
+                    comida
+                </div>
+                <div class="friend pet_content">
+                    amigos
+                </div>
+                <div class="photo pet_content">
+                    <img class="pet_img" src="../img/kitkat.png"  alt="">
+                    <img class="pet_img" src="../img/kitkat2.png" alt="">
+                    <img class="pet_img" src="../img/kitkat3.png" alt="">
+                </div>
+            </div>
+            <div class="pet" id="cacare">
+                <div class="profile_div">
+                    <img class="profile" src="../img/cacare_pfp.png" alt="foto da jacaré deitada estilo p&atilde;ozinho com a luz do Sol de fundo">
+                    <h2 class="name">Jacar&eacute;</h2><br>
+                </div>
+                <div class="tabs pets">
+                    <button onclick="change_tab(event,'cacare','about'  )" class="tab pets active"><i class="fa-solid fa-book"></i>      </button>
+                    <button onclick="change_tab(event,'cacare','food'   )" class="tab pets"       ><i class="fa-solid fa-bowl-food"></i> </button>
+                    <button onclick="change_tab(event,'cacare','friend' )" class="tab pets"       ><i class="fa-solid fa-heart"></i>     </button>
+                    <button onclick="change_tab(event,'cacare','photo'  )" class="tab pets"       ><i class="fa-solid fa-photo-film"></i></button>
+                </div>
+                <div class="about pet_content active">
+                    sobre
+                </div>
+                <div class="food pet_content">
+                    comida
+                </div>
+                <div class="friend pet_content">
+                    amigos
+                </div>
+                <div class="photo pet_content">
+                    <img class="pet_img" src="../img/cacare.png" alt="foto da jacaré deitada estilo pãozinho com a luz do Sol de fundo">
+                    <img class="pet_img" src="../img/cacare2.png" alt="foto da jacaré sentada de costas pra uma janela de noite, com os olhinhos brilhando com o flash da câmera">
+                </div>
+            </div>
+            <div class="pet" id="oreo">
+                <div class="profile_div">
+                    <img class="profile" src="../img/oreo_pfp.png" alt="foto toda borrada do oreo numa mesa cheia de coisa">
+                    <h2 class="name">Oreo</h2><br>
+                </div>
+                <div class="tabs pets">
+                    <button onclick="change_tab(event,'oreo','about'  )" class="tab pets active"><i class="fa-solid fa-book"></i>      </button>
+                    <button onclick="change_tab(event,'oreo','food'   )" class="tab pets"       ><i class="fa-solid fa-bowl-food"></i> </button>
+                    <button onclick="change_tab(event,'oreo','friend' )" class="tab pets"       ><i class="fa-solid fa-heart"></i>     </button>
+                    <button onclick="change_tab(event,'oreo','photo'  )" class="tab pets"       ><i class="fa-solid fa-photo-film"></i></button>
+                </div>
+                <div class="about pet_content active">
+                    <strong>Idade: </strong>2019 ou 2020<br>
+                    <strong>Nome: </strong>Oreo Fofinho
+                    <p>
+                        Trazido de uma terra distante, Oreo Fofinho tornou-se um
+                        <br>
+                        grande aventureiro (ele foge de casa o tempo todo)
+                    </p>
+                    <p>
+                        Ele me segue pela casa inteira e passa a maior parte do tempo na rua ou na minha cama.
+                        <br>
+                        Gosta tando de carinho quanto a <a href=""><i class="fa-solid fa-cat"></i>Kitkat</a>, s&oacute; que mais agitado e mais exigente
+                    </p>
+                    <p>
+                        Um dos mais afetados pela praga f&uacute;ngica,
+                        <br>
+                        o nariz dele continua machucado até hoje
+                    </p>
+                </div>
+                <div class="food pet_content">
+                    <p>
+                        N&atilde;o faço a menor ideia de qual é a comida favorita dele,
+                        <br>
+                        ele come qualquer coisa desde que ele ouça o barulho de um pacote de remédio antes.
+                        <br>
+                        (ele come até remédio puro)
+                    </p>
+                </div>
+                <div class="friend pet_content">
+                    <h2><i class="fa-solid fa-face-grin"></i> Gosta:</h2>
+                        <div class="friend_container">
+                            <h3><i class="fa-solid fa-cat"></i>Cappuccino</h3>
+                                <p>
+                                    Os dois dividem a minha cama.
+                                </p>
+                            <h3><i class="fa-solid fa-cat"></i>Beijinho</h3>
+                                <p>
+                                   As vezes eles dividem a minha cama.
+                                </p>
+                        </div>
+                    <h2><i class="fa-solid fa-face-angry"></i> Desgosta:</h2>
+                        <div class="friend_container">
+                            <h3><i class="fa-solid fa-dog"></i>Pizza</h3>
+                                <p>
+                                    Ele acha ela meio chata.
+                                </p>
+                        </div>
+                </div>
+                <div class="photo pet_content">
+                    <img class="pet_img" src="../img/oreo.png" alt="foto toda borrada do oreo numa mesa cheia de coisa">
+            </div>
+            </div>
+                <div class="pet" id="beijinho">
+                <div class="profile_div">
+                    <img class="profile" src="../img/x" alt="">
+                    <h2 class="name">Beijinho</h2><br>
+                </div>
+                <div class="tabs pets">
+                    <button onclick="change_tab(event,'beijinho','about'  )" class="tab pets active"><i class="fa-solid fa-book"></i>      </button>
+                    <button onclick="change_tab(event,'beijinho','food'   )" class="tab pets"       ><i class="fa-solid fa-bowl-food"></i> </button>
+                    <button onclick="change_tab(event,'beijinho','friend' )" class="tab pets"       ><i class="fa-solid fa-heart"></i>     </button>
+                    <button onclick="change_tab(event,'beijinho','photo'  )" class="tab pets"       ><i class="fa-solid fa-photo-film"></i></button>
+                </div>
+                <div class="about pet_content active">
+                    sobre
+                </div>
+                <div class="food pet_content">
+                    comida
+                </div>
+                <div class="friend pet_content">
+                    amigos
+                </div>
+                <div class="photo pet_content">
+                    fotos
+                </div>
+            </div>
+            <div class="pet" id="pizza">
+                <div class="profile_div">
+                    <img class="profile" src="../img/pizza_pfp.png" alt="foto borrada da pizza deitadinha no colo da minha irmã">
+                    <h2 class="name">Pizza</h2><br>
+                </div>
+                <div class="tabs pets">
+                    <button onclick="change_tab(event,'pizza','about'  )" class="tab pets active"><i class="fa-solid fa-book"></i>      </button>
+                    <button onclick="change_tab(event,'pizza','food'   )" class="tab pets"       ><i class="fa-solid fa-bowl-food"></i> </button>
+                    <button onclick="change_tab(event,'pizza','friend' )" class="tab pets"       ><i class="fa-solid fa-heart"></i>     </button>
+                    <button onclick="change_tab(event,'pizza','photo'  )" class="tab pets"       ><i class="fa-solid fa-photo-film"></i></button>
+                </div>
+                <div class="about pet_content active">
+                    sobre
+                </div>
+                <div class="food pet_content">
+                    comida
+                </div>
+                <div class="friend pet_content">
+                    amigos
+                </div>
+                <div class="photo pet_content">
+                    <img class="pet_img" src="../img/pizza.png" alt="foto borrada da pizza deitadinha no colo da minha irmã">
+                    <img class="pet_img" src="../img/pizza2.png" alt="foto borrada da pizza encolhidinha no colo da minha irmã">
+                </div>
+            </div>
+            <div class="pet" id="leite">
+                <div class="profile_div">
+                    <img class="profile" src="../img/x" alt="">
+                    <h2 class="name">Leite</h2><br>
+                </div>
+                <div class="tabs pets">
+                    <button onclick="change_tab(event,'leite','about'  )" class="tab pets active"><i class="fa-solid fa-book"></i>      </button>
+                    <button onclick="change_tab(event,'leite','food'   )" class="tab pets"       ><i class="fa-solid fa-bowl-food"></i> </button>
+                    <button onclick="change_tab(event,'leite','friend' )" class="tab pets"       ><i class="fa-solid fa-heart"></i>     </button>
+                    <button onclick="change_tab(event,'leite','photo'  )" class="tab pets"       ><i class="fa-solid fa-photo-film"></i></button>
+                </div>
+                <div class="about pet_content active">
+                    sobre
+                </div>
+                <div class="food pet_content">
+                    comida
+                </div>
+                <div class="friend pet_content">
+                    amigos
+                </div>
+                <div class="photo pet_content">
+                    <img class="pet_img" src="../img/leite_e_irmaozinhos.png" alt="foto do leite bebê com todos os irmãozinhos dele (não sei quem é ele)">
+                </div>
+            </div>
+        </main>
+        <footer>
+            &copy; 2026 &#128511; cebola frita com repolho
+        </footer>
+    </div>
+</body>
+</html>
